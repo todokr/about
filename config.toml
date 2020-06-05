@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://todokr.github.io/about"
+baseURL = "https://todokr.github.io/about/"
 publishDir = ""
 languageCode = "en"
 title = "@todokr"
