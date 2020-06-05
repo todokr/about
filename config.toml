@@ -1,7 +1,7 @@
 # Page settings
 
 baseURL = "https://todokr.github.io"
-publishDir = "docs"
+publishDir = ""
 languageCode = "en"
 title = "@todokr"
 theme = "hugo-devresume-theme"
