@@ -1,0 +1,167 @@
+# Page settings
+
+baseURL = "https://todokr.github.io"
+publishDir = "docs"
+languageCode = "en"
+title = "@todokr"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Shunsuke Tadokoro"
+    description = "Software Engineer / Product People"
+    primaryColor = "#009688"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Shunsuke Tadokoro"
+        tagline = "Software Engineer / Product People"
+        avatar = "avatar.jpeg"
+
+    [params.contact]
+        enable = true
+        location = "Tokyo"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "s.tadokoro0317@gmail.com"
+        [[params.contact.list]]
+        icon = "fab fa-twitter"
+        url = "//twitter.com/todokr"
+        text = "@todokr"
+        [[params.contact.list]]
+        icon = "fab fa-github"
+        url = "//github.com/todokr"
+        text = "@todokr"
+
+    [params.summary]
+        enable = true
+        text = "A software engineer with 7+ years experience specially in designing back-end API/Batch and building modern front-end web applications.\nI also have experienced Product Owner role in a scrum team. I put effort into maximizing chances of achieving business goals and building successful product by creating inspiring product vision and synchronizing it with actionable product roadmaps and vivid product backlogs. A Product People who is aspiring to *live in the future, then build what's missing*.\n\n- Experience to give a taik in the largest Scala conference in Asia\n- One of the author of the book about web crawling & scraping\n- Deep understanding of Server-side Web development (Play2 Framework, etc.)\n- Solid coding skills in Scala, Java, and Clojure\n- Excellent experience in modern front-end development\n- Experience with building a high-load (10M+ records/day) advertisement logging and reporting system\n- Experience with Amazon Web Services (EC2, ECS, Fargate, RDS, Aurora, DynamoDB, Comprehend, Lambda, Kinesis, S3, SQS, etc.)\n- Experience with RDBMS (PostgreSQL, MySQL)\n- Experience with data stores for big data (Clickhouse, Elasticsearch, BigQuery)\n- Practical knowledge of Docker-based applications\n- Managing infrastructure by Ansible, Terraform\n- Experience as a Product Owner of a search engine product (CSPO)\n- Emacs lover"
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineer of a Product for Employee Experience"
+        dates = "2019 - Present"
+        company = "BizReach, inc."
+        [[params.experience.list.items]]
+        details = "Design and build a new HR product (Angular, Play2)"
+        [[params.experience.list.items]]
+        details = "Design and implement features based on data science (pearson's correlation, sentiment detection)"
+        [[params.experience.list.items]]
+        details = "Replace MySQL with PostgreSQL"
+        [[params.experience.list.items]]
+        details = "Visualize infra stractures (Cloudmapper)"
+        [[params.experience.list.items]]
+        details = "Plan internship programs for engineering"
+        [[params.experience.list.items]]
+        details = "Engineer recruiter"
+        [[params.experience.list.items]]
+        details = "Mentor of junior engineers"
+
+    [[params.experience.list]]
+        title = "Product Owner of a Job Search Engine"
+        dates = "2018 - 2019"
+        company = "BizReach, inc."
+        [[params.experience.list.items]]
+        details = "Create product vision and roadmaps"
+        [[params.experience.list.items]]
+        details = "Prioritize issues and maintain product backlog items"
+
+    [[params.experience.list]]
+        title = "Software Engineer of a Job Search Engine"
+        dates = "2015 - 2018"
+        company = "BizReach, inc."
+        [[params.experience.list.items]]
+        details = "Design and implement web crawler (Akka, Play2)"
+        [[params.experience.list.items]]
+        details = "Design and implement charset detecting feature"
+        [[params.experience.list.items]]
+        details = "Build SPA for admin (React)"
+        [[params.experience.list.items]]
+        details = "Design and replace hign-load (10M+ records/day) advertisement logging and reporting system (Akka Streams, AWS Lambda)"
+        [[params.experience.list.items]]
+        details = "Replace MySQL (300M+ records) with a columner database (Clickhouse)"
+
+    [[params.experience.list]]
+        title = "Front-end Developer"
+        dates = "2011 - 2014"
+        company = "Startup"
+        [[params.experience.list.items]]
+        details = "Determining the structure and implement web pages with HTML, CSS(SCSS), and JavaScript"
+        [[params.experience.list.items]]
+        details = "Optimize coding workflow with grunt, gulp, and webpack"
+        [[params.experience.list.items]]
+        details = "Optimizing web pages for multi devices with CSS media query"
+        [[params.experience.list.items]]
+        details = "Implement eye-catching motions with JavaScript (GreenSock, Vanilla JS, jQuery)"
+
+    [params.publications]
+        enable = true
+
+        [[params.publications.list]]
+        title = "Running Scala on AWS Lambda in a Snappy Way - ScalaMatsuri 2019"
+        url = "//speakerdeck.com/todokr/running-scala-on-aws-lambda-in-a-snappy-way"
+        dates = "2019"
+        media = "talk"
+        [[params.publications.list]]
+        title = "Software Design 2018年1月号「文字コード・トラブルシューティング」 - 技術評論社"
+        url = "//gihyo.jp/magazine/SD/archive/2018/201801"
+        dates = "2018"
+        media = "magazine"
+        [[params.publications.list]]
+        title = "わかる！ Java to Clojure - D3"
+        url = "//speakerdeck.com/todokr/wakaru-java-to-clojure"
+        dates = "2017"
+        media = "talk"        
+        [[params.publications.list]]
+        title = "クローリングハック あらゆるWebサイトをクロールするための実践テクニック - 翔泳社"
+        url = "//www.shoeisha.co.jp/book/detail/9784798150512"
+        dates = "2017"
+        media = "book"
+        [[params.publications.list]]
+        title = "新しいプログラミング言語の学び方 HTTPサーバーを作って学ぶJava, Scala, Clojure - JJUG CCC 2017 Fall"
+        url = "//speakerdeck.com/todokr/xin-siihurokuraminkuyan-yu-falsexue-hifang-httpsahawozuo-tutexue-hu-java-scala-clojure"
+        dates = "2017"
+        media = "talk"
+        [[params.publications.list]]
+        title = "Software Design 2016年12月号「文字コード攻略マニュアル」 - 技術評論社"
+        url = "//gihyo.jp/magazine/SD/archive/2016/201612"
+        dates = "2016"
+        media = "magazine"
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "sbt-project-switcher"
+        meta = "Open Source"
+        url = "//github.com/todokr/sbt-project-switcher"
+        tagline = "A sbt plugin to switch project in a snappy way"
+        [[params.projects.list]]
+        title = "scala-graalvm-lambda"
+        meta = "Sample Application"
+        url = "//github.com/todokr/scala-graalvm-lambda"
+        tagline = "Sample application of Native Scala with GraalVM."
+        [[params.projects.list]]
+        title = "bolt-scala"
+        meta = "Sample Application"
+        url = "//github.com/todokr/bolt-scala"
+        tagline = "An example of Bolt for Java app, building as executable binary with GraalVM native-image."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/todokr"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/todokr"
+
+
+
+
