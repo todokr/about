@@ -5,6 +5,7 @@ publishDir = ""
 languageCode = "en"
 title = "@todokr"
 theme = "hugo-devresume-theme"
+googleAnalytics = "UA-57955831-4"
 
 [params]
     author = "Shunsuke Tadokoro"
