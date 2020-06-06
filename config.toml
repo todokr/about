@@ -37,7 +37,23 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "A software engineer with 7+ years experience specially in designing back-end API/Batch and building modern front-end web applications.\nI also have experienced Product Owner role in a scrum team. I put effort into maximizing chances of achieving business goals and building successful product by creating inspiring product vision and synchronizing it with actionable product roadmaps and vivid product backlogs. A Product People who is aspiring to *live in the future, then build what's missing*.\n\n- Experience to give a taik in the largest Scala conference in Asia\n- One of the author of the book about web crawling & scraping\n- Deep understanding of Server-side Web development (Play2 Framework, etc.)\n- Solid coding skills in Scala, Java, and Clojure\n- Excellent experience in modern front-end development\n- Experience with building a high-load (10M+ records/day) advertisement logging and reporting system\n- Experience with Amazon Web Services (EC2, ECS, Fargate, RDS, Aurora, DynamoDB, Comprehend, Lambda, Kinesis, S3, SQS, etc.)\n- Experience with RDBMS (PostgreSQL, MySQL)\n- Experience with data stores for big data (Clickhouse, Elasticsearch, BigQuery)\n- Practical knowledge of Docker-based applications\n- Managing infrastructure by Ansible, Terraform\n- Experience as a Product Owner of a search engine product (CSPO)\n- Emacs lover"
+        text = """
+A software engineer with 7+ years experience specially in designing back-end API/Batch and building modern front-end web applications.
+I have experienced Product Owner role in a Large-Scale Scrum team. I put effort into maximizing chances of building successful product by creating inspiring product vision and synchronizing it with actionable product roadmaps and break it down into vivid product backlog items. 
+
+- Experience to give a taik in the largest Scala conference in Asia
+- One of the author of the book about web crawling & scraping
+- Deep understanding of Server-side Web development (Play2 Framework, etc.)
+- Solid coding skills in Scala, Java, and Clojure
+- Excellent experience in modern front-end development
+- Experience with building a high-load (10M+ records/day) advertisement logging and reporting system
+- Experience with Amazon Web Services (EC2, ECS, Fargate, RDS, Aurora, DynamoDB, Comprehend, Lambda, Kinesis, S3, SQS, etc.)
+- Experience with RDBMS (PostgreSQL, MySQL)
+- Experience with data stores for big data (Clickhouse, Elasticsearch, BigQuery)
+- Practical knowledge of Docker-based applications
+- Managing infrastructure by Ansible, Terraform
+- Experience as a Product Owner of a search engine product (CSPO)
+- Emacs lover"""
 
 
     [params.experience]
@@ -56,7 +72,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Visualize infra stractures (Cloudmapper)"
         [[params.experience.list.items]]
-        details = "Plan internship programs for engineering"
+        details = "Support Product Owner to enhance product value through technology"
         [[params.experience.list.items]]
         details = "Engineer recruiter"
         [[params.experience.list.items]]
@@ -68,6 +84,8 @@ theme = "hugo-devresume-theme"
         company = "BizReach, inc."
         [[params.experience.list.items]]
         details = "Create product vision and roadmaps"
+        [[params.experience.list.items]]
+        details = "Prioritize issues and maintain product backlog items"
         [[params.experience.list.items]]
         details = "Prioritize issues and maintain product backlog items"
 
