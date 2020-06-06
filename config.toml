@@ -94,13 +94,13 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         dates = "2015 - 2018"
         company = "BizReach, inc."
         [[params.experience.list.items]]
-        details = "Design and implement web crawler (Akka, Play2)"
+        details = "Design and implement a web crawler (Akka, Play2)"
         [[params.experience.list.items]]
-        details = "Design and implement charset detecting feature"
+        details = "Design and implement charset detecting features"
         [[params.experience.list.items]]
-        details = "Build SPA for admin (React)"
+        details = "Build SPAs for admin (React)"
         [[params.experience.list.items]]
-        details = "Design and replace hign-load (10M+ records/day) advertisement logging and reporting system (Akka Streams, AWS Lambda)"
+        details = "Design and replace a hign-load (10M+ records/day) advertisement logging and reporting system (Akka Streams, AWS Lambda)"
         [[params.experience.list.items]]
         details = "Replace MySQL (300M+ records) with a columner database (Clickhouse)"
 
