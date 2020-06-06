@@ -89,7 +89,7 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         [[params.experience.list.items]]
         details = "Prioritize issues and maintain product backlog items"
         [[params.experience.list.items]]
-        details = "Lead a project to scale systems to enable to handle 300 requests per second"
+        details = "Lead a project to scale systems to enable to handle 300 requests/second"
 
     [[params.experience.list]]
         title = "Software Engineer of a Job Search Engine"
