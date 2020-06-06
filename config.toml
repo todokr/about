@@ -170,7 +170,7 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         title = "bolt-scala"
         meta = "Sample Application"
         url = "//github.com/todokr/bolt-scala"
-        tagline = "An example of Bolt for Java app, building as executable binary with GraalVM native-image."
+        tagline = "An example of Bolt (Slack bot framework) for Java app, building as executable binary with GraalVM native-image."
 
     [params.social]
         enable = true
