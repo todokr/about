@@ -66,8 +66,6 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         [[params.experience.list.items]]
         details = "Design and build a new HR product (Angular, Play2)"
         [[params.experience.list.items]]
-        details = "Design and implement features based on data science (pearson's correlation, sentiment detection)"
-        [[params.experience.list.items]]
         details = "Replace MySQL with PostgreSQL"
         [[params.experience.list.items]]
         details = "Visualize infra stractures (Cloudmapper)"
