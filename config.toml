@@ -156,8 +156,13 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         enable = true
 
         [[params.projects.list]]
+        title = "zugen"
+        meta = "OSS"
+        url = "//github.com/todokr/zugen"
+        tagline = "An architecture diagram generator for Scala project."
+        [[params.projects.list]]
         title = "sbt-project-switcher"
-        meta = "Open Source"
+        meta = "OSS"
         url = "//github.com/todokr/sbt-project-switcher"
         tagline = "A sbt plugin to switch project in a snappy way"
         [[params.projects.list]]
@@ -165,11 +170,7 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         meta = "Sample Application"
         url = "//github.com/todokr/scala-graalvm-lambda"
         tagline = "Sample application of Native Scala with GraalVM."
-        [[params.projects.list]]
-        title = "bolt-scala"
-        meta = "Sample Application"
-        url = "//github.com/todokr/bolt-scala"
-        tagline = "An example of Bolt (Slack bot framework) for Java app, building as executable binary with GraalVM native-image."
+
 
     [params.social]
         enable = true
