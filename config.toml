@@ -9,14 +9,14 @@ googleAnalytics = "UA-57955831-4"
 
 [params]
     author = "Shunsuke Tadokoro"
-    description = "Software Engineer / Product People"
+    description = "Software Developer / Product People"
     primaryColor = "#009688"
     textPrimaryColor = "#292929"
 
     [params.profile]
         enable = true
         name = "Shunsuke Tadokoro"
-        tagline = "Software Engineer / Product People"
+        tagline = "Software Developer / Product People"
         avatar = "avatar.jpeg"
 
     [params.contact]
@@ -39,15 +39,16 @@ googleAnalytics = "UA-57955831-4"
     [params.summary]
         enable = true
         text = """
-A software engineer with 7+ years experience specially in designing back-end API/Batch and building modern front-end web applications.
+A software developer with 7+ years experience specially in designing back-end API/Batch and building modern front-end web applications.
 I have experienced Product Owner role in a Large-Scale Scrum team. I put effort into maximizing chances of building successful product by creating inspiring product vision and synchronizing it with actionable product roadmaps and break it down into vivid product backlog items. 
 
 - Experience to give a talk in the largest Scala conference in Asia
 - One of the author of the book about web crawling & scraping
-- Deep understanding of Server-side Web development (Play2 Framework, etc.)
-- Solid coding skills in Scala, Java, and Clojure
-- Excellent experience in modern front-end development
 - Experience with building a high-load (10M+ records/day) advertisement logging and reporting system
+- Deep understanding of server-side web development (Play2 Framework, etc.)
+- Solid coding skills in Scala, JavaScript, Java and Clojure
+- Working knowledge of Python, Golang and Dart
+- Experience in modern front-end development (Angular, React, Vue.js, Polymer, webpack, Parcel, etc.)
 - Experience with Amazon Web Services (EC2, ECS, Fargate, RDS, Aurora, DynamoDB, Comprehend, Lambda, Kinesis, S3, SQS, etc.)
 - Experience with RDBMS (PostgreSQL, MySQL)
 - Experience with data stores for big data (Clickhouse, Elasticsearch, BigQuery)
@@ -61,7 +62,7 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         enable = true
 
         [[params.experience.list]]
-        title = "Software Engineer of a Product for Employee Experience"
+        title = "Software Developer of a Product for Employee Experience"
         dates = "2019 - Present"
         company = "BizReach, inc."
         [[params.experience.list.items]]
@@ -75,9 +76,9 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         [[params.experience.list.items]]
         details = "Build an inception deck for a new product"
         [[params.experience.list.items]]
-        details = "Engineer recruiter"
+        details = "Tech recruiter"
         [[params.experience.list.items]]
-        details = "Mentor of junior engineers"
+        details = "Mentor of junior developers"
 
     [[params.experience.list]]
         title = "Product Owner of a Job Search Engine"
@@ -91,7 +92,7 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         details = "Lead a project to scale systems to enable to handle 300 requests/second"
 
     [[params.experience.list]]
-        title = "Software Engineer of a Job Search Engine"
+        title = "Software Developer of a Job Search Engine"
         dates = "2015 - 2018"
         company = "BizReach, inc."
         [[params.experience.list.items]]
@@ -160,6 +161,11 @@ I have experienced Product Owner role in a Large-Scale Scrum team. I put effort 
         meta = "OSS"
         url = "//github.com/todokr/zugen"
         tagline = "An architecture diagram generator for Scala project."
+        [[params.projects.list]]
+        title = "bastian"
+        meta = "OSS"
+        url = "//github.com/todokr/bastian"
+        tagline = "A tool that generates a single Usecase Diagram from Product Backlog Items written in markdown format."
         [[params.projects.list]]
         title = "sbt-project-switcher"
         meta = "OSS"
